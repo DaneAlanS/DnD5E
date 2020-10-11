@@ -1,0 +1,23 @@
+@import "sidebar.scss";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  margin: none;
+  padding: 0px;
+  grid-template-columns: minmax(80px, 300px) minmax(80px, 250px) 60%;
+}
+
+.search-bar {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+}
